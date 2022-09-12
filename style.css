@@ -1,0 +1,175 @@
+body {
+    background: #F6F8F9;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    line-height: 24px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+h5 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    color: #86A1AE;
+    ;
+}
+
+.text-secondary {
+    color: #646F79;
+}
+
+.text-dark {
+    color: #3B4A54;
+}
+
+.navbar {
+    padding: 0 20px;
+    background: #FFFFFF;
+}
+
+.nav-link {
+    padding: 22px;
+    color: #646F79;
+    margin-right: 22px;
+}
+
+.nav-link:hover {
+    color: #0AD0F4;
+}
+
+.nav-link:first-child {
+    padding-left: 0 !important;
+}
+
+.nav-link :last-child {
+    margin-right: 0 !important;
+}
+
+.container {
+    max-width: 1050px;
+}
+
+.badge {
+    background: linear-gradient(249.6deg, #FC762D 0%, #FFA270 100%);
+    color: #FFFFFF;
+}
+
+.btn {
+    font-size: 14px;
+    min-width: 100px;
+}
+
+.btn-success {
+    background: #25CD71;
+    border-color: #25CD71;
+    margin-left: 10px;
+}
+
+.btn-outline-secondary {
+    border-color: #ECF0F2;
+
+}
+
+.card {
+    padding: 15px;
+    border: none;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+.card-goal {
+    flex-direction: row;
+    align-items: center;
+}
+
+.super-logo {
+    margin-bottom: 32px;
+}
+
+.bg-light {
+    background: linear-gradient(180deg, #FFFFFF 1.21%, #E5ECFF 77.59%);
+}
+
+.goal-name {
+    font-weight: 600;
+    flex: 1;
+    text-align: left;
+}
+
+.goal-logo {
+    margin-right: 10px;
+
+}
+
+footer {
+    background-color: #1B1B1B;
+    color: #86A1AE;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .card-goal,
+    .card-feature {
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .card-feature {
+        text-align: center;
+    }
+
+    .card-feature img {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .logo {
+        position: absolute;
+        left: 16px;
+        top: 15px;
+    }
+
+    .header-cta {
+        position: absolute;
+        right: 16px;
+        top: 15px;
+    }
+
+    .card-wrapper {
+        margin-bottom: 20px;
+    }
+}
